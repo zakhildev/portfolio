@@ -12,10 +12,10 @@ root.render(
 	<React.StrictMode>
 		<BrowserRouter>
 			<Routes>
-				<Route path='/' element={<Sites.Home />} />
-				<Route path='/projects' element={<Sites.Projects />} />
-				<Route path='/contact' element={<Sites.Contact />} />
-				<Route path='/*' element={<Sites.NotFound />} />
+				<Route path='/portfolio/' element={<Sites.Home />} />
+				<Route path='/portfolio/projects' element={<Sites.Projects />} />
+				<Route path='/portfolio/contact' element={<Sites.Contact />} />
+				<Route path='/portfolio/*' element={<Sites.NotFound />} />
 			</Routes>
 		</BrowserRouter>
 	</React.StrictMode>
